@@ -46,9 +46,6 @@
    <property name="movable">
     <bool>false</bool>
    </property>
-   <property name="ц" stdset="0">
-    <string notr="true"/>
-   </property>
    <widget class="QWidget" name="tab">
     <attribute name="title">
      <string>Карточка 1</string>
