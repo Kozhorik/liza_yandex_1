@@ -27,7 +27,7 @@ LIST_FILE_NAME = [i for i in DICT_FILE_NAME.keys()]
 class MyWidget(QDialog):
     def __init__(self):
         super().__init__()
-        loadUi('u i/main_window.ui', self)
+        loadUi('ui/main_window.ui', self)
 
         database = QSqlDatabase.addDatabase('QSQLITE')
         database.setDatabaseName('result.db')
